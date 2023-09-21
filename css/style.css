@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Inter', sans-serif;
+}
+.header {
+  background-color: #087990;
+  height: 295px;
+  position: relative;
+}
+.header__title {
+  text-align: center;
+  font-size: 72px;
+  color: Cyan;
+  font-weight: 700;
+  padding-top: 68px;
+}
+.header__text {
+   text-align: center;
+  font-size: 21px;
+  color: Cyan;
+  
+}
+.searcher {
+  position: absolute;
+  top: 263px;
+  width: 820px;
+  height: 64px;
+  border: solid 1px #CED4DA;
+  font-size: 24px;
+  margin-left: 310px;
+}
+.cards__section {
+  background: #EDEEF3;
+}
+.container {
+display: grid;
+justify-content: center;
+grid-template-columns: 316px 316px 316px;
+grid-template-rows: 184px 184px 184px;
+gap: 19px;
+padding-top: 80px;
+}
+.cards {
+border: solid 1px #DEE2E6;
+background-color: #FFFFFF;
+display: flex;
+align-items: center;
+flex-direction: column;
+}
+.emoji__img {
+  font-size: 48px;
+  margin-top: 24px;
+}
+.emoji__discription__one {
+  font-size: 17px;
+  font-weight: 700;
+  border-bottom: 2px solid black;
+  width: 32px;
+  margin-top: 14px;
+}
+.emoji__discription {
+  font-size: 17px;
+  font-weight: 700;
+  border-bottom: 2px solid black;
+  width: 42px;
+  margin-top: 14px;
+}
+.emoji__text {
+  font-size: 12px;
+  margin: 12px 24px 0 24px;
+line-height: 14.52px;
+font-weight: 400;
+color: #3F444A;
+text-align: center;
+}
+.bottom__text {
+  color: #6C757D;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  padding-top: 13px;
+  border-top: solid 1px #CED4DA;
+  width: 986px;
+  margin-top: 31px;
+}
