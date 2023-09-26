@@ -22,16 +22,17 @@ body {
    text-align: center;
   font-size: 21px;
   color: Cyan;
-  
 }
 .searcher {
   position: absolute;
-  top: 263px;
   width: 820px;
   height: 64px;
   border: solid 1px #CED4DA;
   font-size: 24px;
-  margin-left: 310px;
+  bottom: 0;
+  right: 50%;
+  translate: 50% 50%;
+  border-radius: 4px;
 }
 .cards__section {
   background: #EDEEF3;
@@ -50,28 +51,30 @@ background-color: #FFFFFF;
 display: flex;
 align-items: center;
 flex-direction: column;
+padding: 24px;
 }
 .emoji__img {
   font-size: 48px;
-  margin-top: 24px;
+  height: 48px;
+  width: 48px;
 }
 .emoji__discription__one {
   font-size: 17px;
   font-weight: 700;
   border-bottom: 2px solid black;
   width: 32px;
-  margin-top: 14px;
+  margin-top: 18px;
 }
 .emoji__discription {
   font-size: 17px;
   font-weight: 700;
   border-bottom: 2px solid black;
   width: 42px;
-  margin-top: 14px;
+  margin-top: 18px;
 }
 .emoji__text {
   font-size: 12px;
-  margin: 12px 24px 0 24px;
+  margin-top: 12px;
 line-height: 14.52px;
 font-weight: 400;
 color: #3F444A;
