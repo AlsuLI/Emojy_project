@@ -14,14 +14,14 @@ body {
 .header__title {
   text-align: center;
   font-size: 72px;
-  color: Cyan;
+  color: #CFF4FC;
   font-weight: 700;
   padding-top: 68px;
 }
 .header__text {
    text-align: center;
   font-size: 21px;
-  color: Cyan;
+  color: #CFF4FC;
 }
 .searcher {
   position: absolute;
